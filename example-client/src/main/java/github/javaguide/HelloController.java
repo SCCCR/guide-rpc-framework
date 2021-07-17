@@ -21,7 +21,7 @@ public class HelloController {
         log.debug("1111");
         assert "Hello description is 222".equals(hello);
         Thread.sleep(12000);
-        for (int i = 0; i < 10; i++) {
+        for (int i = 0; i < 5; i++) {
             System.out.println(helloService.hello(new Hello("111", "222")));
         }
     }
