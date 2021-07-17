@@ -18,6 +18,7 @@ public class HelloController {
         String hello = this.helloService.hello(new Hello("111", "222"));
         //如需使用 assert 断言，需要在 VM options 添加参数：-ea
         log.debug("i am daddy");
+        log.debug("上划线");
         log.debug("1111");
         log.debug("3333");
         log.debug("2222");
