@@ -22,6 +22,12 @@ public class HelloController {
         log.debug("3333");
         log.debug("2222");
         log.debug("4444");
+        log.debug("下划线");
+        log.debug("下划线");
+        log.debug("下划线");
+        log.debug("下划线");
+        log.debug("下划线");
+        log.debug("下划线");
         assert "Hello description is 222".equals(hello);
         Thread.sleep(12000);
         for (int i = 0; i < 5; i++) {
