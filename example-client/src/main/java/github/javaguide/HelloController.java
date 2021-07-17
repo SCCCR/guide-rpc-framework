@@ -26,10 +26,12 @@ public class HelloController {
         log.debug("下划线");
         log.debug("下划线");
         log.debug("下划线");
+        log.debug("上划线");
         log.debug("下划线");
         log.debug("下划线");
         log.debug("下划线");
         assert "Hello description is 222".equals(hello);
+        log.debug("上划线");
         Thread.sleep(12000);
         for (int i = 0; i < 5; i++) {
             System.out.println(helloService.hello(new Hello("111", "222")));
