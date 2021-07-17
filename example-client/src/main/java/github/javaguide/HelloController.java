@@ -19,7 +19,9 @@ public class HelloController {
         //如需使用 assert 断言，需要在 VM options 添加参数：-ea
         log.debug("i am daddy");
         log.debug("1111");
+        log.debug("3333");
         log.debug("2222");
+        log.debug("4444");
         assert "Hello description is 222".equals(hello);
         Thread.sleep(12000);
         for (int i = 0; i < 5; i++) {
